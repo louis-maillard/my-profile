@@ -1,0 +1,162 @@
+ body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-attachment: fixed;
+        }
+    header {
+        background-color: lightyellow;"
+        color: #fff;
+        padding: 5px;
+        text-align: center;
+        position: fixed;
+        width: 250px;
+        border-radius: 100px;
+    }
+      img {
+            border: solid 10px lightyellow;
+            box-shadow: lightcyan;
+            width: 200px;
+            borer-radius: 6px;
+            display: flex;
+            margin: auto;
+            margin-top: 50px;
+            margin-bottom: 50px;
+          }
+
+    nav {
+        background-color: #F1F1F1;
+        padding: 10px;
+        text-align: center;
+    }
+
+    nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    nav li {
+        display: inline-block;
+        margin-right: 20px;
+        text-align: center;
+    }
+
+    nav a {
+        color: #333;
+        text-decoration: none;
+        padding: 5px;
+    }
+
+    nav a:hover {
+        background-color:lightyellow;
+        color: black;
+    }
+
+    section {
+        margin: 20px;
+        padding: 10px;
+        background-color: #F1F1F1;
+        text-align: justify;
+    }
+    h1 {
+        color: blueviolet;
+    }
+
+    h2 {
+        color: blueviolet;
+    }
+
+    h3 {
+        color: blueviolet;
+    }
+
+    footer {
+        background-color: #0072C6;
+        color: #fff;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .social-icons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 20px;
+    }
+
+    .social-icons a {
+        display: block;
+        margin-right: 10px;
+        color: #0072C6;
+        text-decoration: none;
+        font-size: 20px;
+        transition: color 0.2s ease-in-out;
+    }
+
+    .social-icons a:hover {
+        color: #fff;
+    }
+
+    .social-icons a:last-child {
+        margin-right: 0;
+    }
+    footer h4 {
+        margin-right: 0px;
+    }
+    section img {
+        width: 150px;
+        display: inline-flex;
+        display: flex;
+        margin: auto;
+    }
+    .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+     #ligne {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+     }
+
+        .item {
+            flex-basis: calc(33.33% - 20px);
+            margin: 10px;
+            text-align: center;
+        }
+
+        .item img {
+            display: block;
+            max-width: 100%;
+        }
+
+        .item p {
+            margin: 0;
+            padding: 10px 0;
+        }
+
+        #voyage img {
+           width: auto;
+           height: 200px; 
+        }
+        #voyage p {
+            font-family: fantasy;
+            font-size: 20px;
+        }
+        img:hover {
+    -ms-transform: scale(1.5); 
+    -webkit-transform: scale(1.5); 
+    transform: scale(1.5);
+    }
+    
+    #Parcours div {
+        width: 150px;
+        text-align: center;
+        margin: auto;
+        display: inline;
+        justify-content: center
+
+        }
+}
